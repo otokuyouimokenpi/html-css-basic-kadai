@@ -24,7 +24,7 @@ main {
 
 #parent {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .contents {
@@ -72,8 +72,8 @@ a:hover {
   color: rgb(245, 178, 168);
 }
 
-/* 画面幅が780px以下のときにスタイルが適用 */
-@media screen and (max-width: 780px) {
+/* 画面幅が768px以下のときにスタイルが適用 */
+@media screen and (max-width: 768px) {
   h2 {
     font-size: 30px;
   }
